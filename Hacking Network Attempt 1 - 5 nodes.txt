@@ -1,0 +1,15 @@
+First network breaking!
+
+Network Topology: Star
+Nodes: ESXi (not hosting anything), Rockstor, Windows Server (no services setup), VyOS (DHCP server), DamnSmallLinux (client)
+Everything on the same virtual network? yes (VMnet19)
+System used to break? Kali Linux
+
+~Have not changed anything security wise on all the systems~
+1) Armitage
+	- First confirmed I was on the same network and pinged the router.
+		Success
+	- Loaded up the tool I was most comfortable with - Armitage - and started with an nmap "comprehensive" scan on the network 192.168.250.0/24
+		Successfully found all 5 hosts
+	- Hail Mary
+		Failed! "No Active Sessions"
