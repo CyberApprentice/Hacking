@@ -1,0 +1,17 @@
+CobaltStrike
+
+1. Download source code leak (https://github.com/ORCA666/cobalt-strike-source-code-leak)
+ - git clone https://github.com/ORCA666/cobalt-strike-source-code-leak.git
+
+2. Dependencies
+ - sudo apt update
+ - sudo apt install -y openjdk-11-jdk proxychains socat unrar
+    - openjdk-11-jdk - Cobalt is java based so it requires java to compile and run it
+    - proxychains - ?
+    - socat - ?
+    - unrar - decompress it
+ - sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
+
+3. Set it up
+ - unrar x CobaltStrike.rar
+ 
